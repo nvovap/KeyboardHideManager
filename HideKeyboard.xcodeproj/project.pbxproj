@@ -12,6 +12,7 @@
 		E705762A1F9D19D80091916D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70576281F9D19D80091916D /* Main.storyboard */; };
 		E705762C1F9D19D80091916D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E705762B1F9D19D80091916D /* Assets.xcassets */; };
 		E705762F1F9D19D80091916D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E705762D1F9D19D80091916D /* LaunchScreen.storyboard */; };
+		E70576371F9D1AE10091916D /* KeyboardHideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70576361F9D1AE10091916D /* KeyboardHideManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E705762B1F9D19D80091916D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E705762E1F9D19D80091916D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E70576301F9D19D80091916D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70576361F9D1AE10091916D /* KeyboardHideManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHideManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E70576241F9D19D80091916D /* AppDelegate.swift */,
+				E70576361F9D1AE10091916D /* KeyboardHideManager.swift */,
 				E70576261F9D19D80091916D /* ViewController.swift */,
 				E70576281F9D19D80091916D /* Main.storyboard */,
 				E705762B1F9D19D80091916D /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70576371F9D1AE10091916D /* KeyboardHideManager.swift in Sources */,
 				E70576271F9D19D80091916D /* ViewController.swift in Sources */,
 				E70576251F9D19D80091916D /* AppDelegate.swift in Sources */,
 			);
